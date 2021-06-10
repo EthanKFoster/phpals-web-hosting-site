@@ -3,19 +3,23 @@ body{
    
 }
 
-main{
+main {
     min-height: 100vh;
     position: relative;
     margin: 0;
     padding-bottom: 100px; 
     box-sizing: border-box;
+    background-color: #3A506B;
 }
 
-.list_{
+.gradient {
+    background: rgb(28,37,65);
+    background: linear-gradient(59deg, rgba(28,37,65,1) 4%, rgba(58,80,107,1) 56%, rgba(150,173,200,1) 100%);
+}
+
+.list_ {
     font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
-
-    
 }
 
 .top_banner{
@@ -27,7 +31,10 @@ main{
     padding-top:5px !important; padding-bottom:0 !important;
     height: 70px;
 }
-.navbar {min-height:30px !important;}
+
+.navbar {
+    min-height:30px !important;
+}
 
 .navbar-toggle {
     padding: 0 0;
