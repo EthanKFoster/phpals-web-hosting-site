@@ -1,5 +1,5 @@
 body{
-    background-color: #3A506B;
+    background-color:white;
    
 }
 
@@ -18,10 +18,10 @@ main{
     
 }
 
-/* nav{
-     min-height: 2rem;
-     padding: 2px !important;
-} */
+.top_banner{
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 800;
+}
 
 .navbar-nav > li > a, .navbar-brand {
     padding-top:5px !important; padding-bottom:0 !important;
@@ -35,17 +35,74 @@ main{
     margin-bottom: 0;
 }
 
+.nav_text{
+    font-size: 'Source Serif Pro', serif;
+    font-weight: 800;
+}
+
 .grab_{
     background: rgb(58,80,107);
     background: linear-gradient(279deg, rgba(58,80,107,1) 8%, rgba(207,141,61,1) 51%, rgba(58,80,107,1) 100%);
 }
 
 footer {
-    position: relative;
-    bottom: 0;
-    height: 100px;
+   background-color:#CF8D3D ;
   }
 
   .my_nav{
-      background-color: #D9D9D1;
+      background-color: white;
     }
+
+
+    .hero_text{
+        color: whitesmoke;
+        text-shadow:  3px 3px 0 #000,
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+         -1px 1px 0 #000,
+          1px 1px 0 #000;;
+        font-size: 4rem;
+        font-weight: bold;
+        font-family: 'Source Serif Pro', serif;
+    }
+
+    .hero_para {
+        color: white;
+        font-size: 2rem;
+        font-family: 'Source Serif Pro', serif;
+        font-weight: 300;
+    }
+
+    .my_line{
+       background-color: white;
+       opacity: 0.5;
+    }
+
+    .hero_cont{
+    background-color:#cf8d3d;
+    }
+
+    .my_button{
+        background-color: lightgrey;
+        color: white;
+        text-shadow:  3px 3px 0 #000,
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+         -1px 1px 0 #000,
+          1px 1px 0 #000;
+        font-weight: bold;
+        font-size: 3rem;
+        margin-left: 4rem;
+        margin-bottom: 10px;
+    }
+
+    .my_button:hover, .my_button:focus, .my_button:active {
+        background-color: #96ADC8 !important;
+    }
+
+    .price_cont{
+        background-color:#96ADC8;
+        color: white;
+    }
+
+  
