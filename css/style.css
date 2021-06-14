@@ -156,6 +156,10 @@ footer ul > li > a:hover {
     transition: .3s;
 }
 
+.my_icons{
+    color: #CF8D3D;
+}
+
 i {
     padding: 1rem;
 }
@@ -185,4 +189,9 @@ i:hover {
  font-weight: 800;
  font-family: 'Source Serif Pro', serif;
  font-size: 3rem;
+}
+
+.contact_list {
+    list-style-type: none;
+    list-style: none;
 }
