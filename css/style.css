@@ -132,3 +132,10 @@ footer {
     background-color: white;
     
 }
+
+
+.forum_text{
+ font-weight: 800;
+ font-family: 'Source Serif Pro', serif;
+ font-size: 3rem;
+}
