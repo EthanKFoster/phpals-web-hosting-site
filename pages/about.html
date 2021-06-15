@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/885ee2c56d.js" crossorigin="anonymous"></script>
     <title>Heavenly Host</title>
     <style>
      body {
-  font-family: Arial, Helvetica, sans-serif;
   margin: 0;
 }
 
@@ -79,7 +80,7 @@ html {
 </style> 
 </head>
 <body>
-    <header>
+
      
       <header>
         <div class="grab_ container-fluid bg-secondary py-3">
@@ -110,14 +111,14 @@ html {
               </div>
             </nav>
           </header>
-       
+  <main class="gradient">
     <div class="about-section">
         <h1>About Us</h1>
         <p>Heavenly Host was founded June 2021 by four web developers and right now is the best in the nation for hosting your website and we offer you free domain for all of your website needs.</p>
         <p>You get 3 pakages to choose from. We have the best rates in the nation. To speak to one of our developers and ge you started you can contact them below.</p>
       </div>
       
-      <h2 style="text-align:center">Our Team</h2>
+      <h2 class="text-white" style="text-align:center">Our Team</h2>
       <div class="row">
         <div class="column">
           <div class="card">
@@ -164,16 +165,75 @@ html {
              <div class="container">
                <h2>Kurt Simmons</h2>
                <p class="title">Apprentice Word Press</p>
-               <p>SWord Press Web Developer.</p>
+               <p>Word Press Web Developer.</p>
                <p>kurt@123.com</p>
                <p><button class="button">Contact</button></p>
              </div>
            </div>
           </div> 
-           
-           <div class="footer">
-            <h2>Copy Right</h2>
+  </main>
+          <!-- start of footer -->
+      <footer class="container-fluid">
+
+        <div class="row justify-content-around align-items-center text-white mx-3 py-5">
+
+          <!-- left menu links -->
+          <div class="col footer_menu col-4">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="/pages/contact.html">Contact Us</a></li>
+              <li><a href="/pages/about.html">About Us</a></li>
+              <li><a href="https://example.com/">Privacy Policy</a></li>
+              <li><a href="https://example.com/">Terms of Service</a></li>
+            </ul>
           </div>
+
+          <!-- footer logo -->
+          <div class="col footer_logo col-4">
+            <a href="index.html"><img src="/images/Hero-logo-nb.png" alt="Heavenly Hosting Logo" class="img-fluid"></a>
+          </div>
+
+          <!-- email signup -->
+          <div class="col col-4 border-warning">
+            <h3>sign up for our newsletter!</h3>
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+
+    <!-- social media icons bottom row -->
+        <div class="row align-items-center justify-content-center text-white">
+          <div class="col"><p class="text-center">follow us on social media</p></div>
+          <div class="row">
+            <div class="col _icons d-flex justify-content-center">
+              <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+              <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.google.com/" target="_blank"><i class="fab fa-google"></i></a>
+              <a href="https://www.pinterest.com/" target="_blank"><i class="fab fa-pinterest"></i></a>
+              <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <hr>
+        <!-- copyright statement -->
+
+        <div class="row d-flex justify-content-center align-items-center">
+          <p class="text-center text-white">&copy 2021 Heavenly Hosting LLC</p>
+        </div>
+
+      </footer>
+      <!-- end of footer  -->
 
 </body>
 </html>
