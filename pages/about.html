@@ -4,10 +4,176 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
-    <title>Document</title>
+    <title>Heavenly Host</title>
+    <style>
+     body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style> 
 </head>
 <body>
-    
+    <header>
+     
+      <header>
+        <div class="grab_ container-fluid bg-secondary py-3">
+          <div class="h3 text-center text-white ">Free domain for every website   </div>
+        </div>  
+        <nav class="my_nav navbar navbar-expand-lg navbar-light py-0">
+              <div class="container-fluid d-flex ">
+                <a class="navbar-brand mb-3" href="../index.html"><img src="../images/2.png" width="200vw" alt="logo" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                  <ul class="list_ navbar-nav mt-4 ">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../pages/rates.html">Rates</a>
+                    </li>
+                    <li class="nav-item ">
+                      <a class="nav-link " href="../pages/contact.html" id="navbarDropdownMenuLink">
+                        Contact
+                      </a>
+                     
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </header>
+       
+    <div class="about-section">
+        <h1>About Us</h1>
+        <p>Heavenly Host was founded June 2021 by four web developers and right now is the best in the nation for hosting your website and we offer you free domain for all of your website needs.</p>
+        <p>You get 3 pakages to choose from. We have the best rates in the nation. To speak to one of our developers and ge you started you can contact them below.</p>
+      </div>
+      
+      <h2 style="text-align:center">Our Team</h2>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="../images/Jean Marc.jpg" alt="JeanMarc" style="width:100%">
+            <div class="container">
+              <h2>Jean Marc</h2>
+              <p class="title">Apprentice Word Press</p>
+              <p>Word Press Web Developer.</p>
+              <p>jeanmarc@123.com</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="../images/Ethan Forster.jpg" alt="Ethan" style="width:100%">
+            <div class="container">
+              <h2>Ethan Foster</h2>
+              <p class="title">Apprentice Word Press</p>
+              <p>Word Press Web Developer.</p>
+              <p>ethan@123.com</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="../images/Brian Picket.jpg" alt="Brian" style="width: 100%">
+            <div class="container">
+              <h2>Brian Pickett</h2>
+              <p class="title">Apprentice Word Press</p>
+              <p>Word Press Web Developer.</p>
+              <p>brian@123.com</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+          
+        <div class="column">
+          <div class="card">
+            <img src="../images/kurt-simmoms.jpg" alt="Kurt" style="width: 100%">
+             <div class="container">
+               <h2>Kurt Simmons</h2>
+               <p class="title">Apprentice Word Press</p>
+               <p>SWord Press Web Developer.</p>
+               <p>kurt@123.com</p>
+               <p><button class="button">Contact</button></p>
+             </div>
+           </div>
+          </div> 
+           
+           <div class="footer">
+            <h2>Copy Right</h2>
+          </div>
+
 </body>
 </html>
