@@ -194,4 +194,12 @@ i:hover {
 .contact_list {
     list-style-type: none;
     list-style: none;
+    font-size: large;
 }
+
+.contact_us{
+    font-size: 3.5rem;
+   
+}
+
+
