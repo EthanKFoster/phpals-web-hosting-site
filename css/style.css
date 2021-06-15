@@ -180,9 +180,8 @@ i:hover {
  font-family: 'Source Serif Pro', serif;
 }
 
-.ban_{
+.ban_ {
     background-color: white;
-    
 }
 
 .forum_text{
@@ -194,4 +193,12 @@ i:hover {
 .contact_list {
     list-style-type: none;
     list-style: none;
+    font-size: large;
 }
+
+.contact_us{
+    font-size: 3.5rem;
+   
+}
+
+
